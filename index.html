@@ -32,35 +32,35 @@
     <!---------------------------------------- Navigation ----------------------------------------------------->
 
     <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container">
-                <a class="navbar-brand" href="#">Xend Convention Center</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0  ">
-                        <li class="nav-item mx-3">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link" href="#shoes">About Us</a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link" href="#backpack">Contact</a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link" href="#subscribe">Subscribe</a>
-                        </li>
+        <nav class="navbar navbar-expand-lg navbar-light py-3">
 
-                    </ul>
+            <a class="navbar-brand" href="#">Xend Convention Center</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0  ">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#shoes">About Us</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#backpack">Contact</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#subscribe">Subscribe</a>
+                    </li>
 
-                </div>
+                </ul>
+
             </div>
+
         </nav>
-        <!---------------------------------------- carousel ----------------------------------------------------->
+        <!------------------------------- carousel ---------------------------------------------->
 
         <section class="container my-5">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -145,9 +145,10 @@
     </header>
 
     <main>
-        <!-- Our package -->
+        <!---------------------------------- Our package -------------------------------------------------------->
+
         <section class="container">
-            <h1 class="text-center my-5">Our package</h1>
+            <h1 class="text-center my-5 display-3">Our Package</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
                 <div class="col">
                     <div class="card-1">
@@ -224,10 +225,101 @@
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </section>
+
+        <!------------------------- Frequently Ask ------------------------------------>
+
+        <section class="container">
+            <h2 class="text-center my-5 ">Frequently Asked Questions</h2>
+
+            <div class="row row-col-lg-6 g-4">
+                <div class="col">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What is the difference between event design and event planning?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>Event design and event planning work.</strong> hand in hand to deliver a
+                                    successful event.Events by Knight offer tailor made events. This means we
+                                    incorporate both event design and event planning
+                                    to create that perfect event.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    How early do we need to start planning an event
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    How do you keep budgets on track?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapsefour">
+                                    What is your refund and cancellation policy?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="./images/people.png" alt="">
+                </div>
+            </div>
+        </section>
+
+
+
     </main>
 
 
@@ -240,10 +332,10 @@
             <div>
                 <h5 class="text-white">Get the App</h5>
                 <div class="d-flex flex-column gap-3">
-                    <a href="http://" target="_blank" rel="noopener noreferrer"> <img src="./icons/app-store-badge.svg"
-                            alt=""></a>
-                    <a href="http://" target="_blank" rel="noopener noreferrer"><img src="./icons/google-play-badge.svg"
-                            alt="" width="135"></a>
+                    <a href="https://apps.apple.com/us/app/quran-by-quran-com-%D9%82%D8%B1%D8%A2%D9%86/id1118663303"
+                        target="_blank" rel="noopener noreferrer"> <img src="./icons/app-store-badge.svg" alt=""></a>
+                    <a href="https://play.google.com/store/apps/details?id=com.golap.hefzquran" target="_blank"
+                        rel="noopener noreferrer"><img src="./icons/google-play-badge.svg" alt="" width="135"></a>
                 </div>
 
             </div>
