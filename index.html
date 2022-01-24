@@ -62,7 +62,7 @@
         </nav>
         <!------------------------------- carousel ---------------------------------------------->
 
-        <section class="container my-5">
+        <section class="container ">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -81,9 +81,9 @@
                         <img src="./images/banner.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h1>First slide label</h1>
-                            <p>Some representative placeholder content for the first slide.</p>
-                            <a class="btn btn-outline-primary" href="https://my-nike-react.netlify.app" target="_blank"
-                                rel="noopener noreferrer">Go To
+                            <p class="my-3">Some representative placeholder content for the first slide.</p>
+                            <a class="btn btn-outline-light m-3" href="https://my-nike-react.netlify.app"
+                                target="_blank" rel="noopener noreferrer">Go To
                                 Book</a>
                         </div>
                     </div>
@@ -148,6 +148,11 @@
 
     </header>
 
+    <!---------------------------------- toast -------------------------------------------------------->
+
+
+
+
     <main>
         <!---------------------------------- Our package -------------------------------------------------------->
 
@@ -190,7 +195,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col w-25 bg-primary position-relative">
+                <div class="col bg-primary position-relative shadow-lg">
                     <div class="card bg-primary text-white rounded-3 ">
                         <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                             Hot Plan
@@ -230,10 +235,64 @@
                 </div>
             </div>
         </section>
+        <!------------------------- Table------------------------------------>
+
+        <section class="container my-5">
+            <h2 class="my-5 text-center">Some People Info</h2>
+            <table class="table table-dark table-hover table-responsive{-sm|-md}" style="overflow-x: hidden">
+                <thead>
+                    <tr>
+                        <th scope="col">SL</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Phone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark Otto</td>
+                        <td>MarkOtto@mail.com</td>
+                        <td>+74378937</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob Thornton</td>
+                        <td>JacobThornton@web.com</td>
+                        <td>+64363767</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Larry dird</td>
+                        <td>Larrydird@twitter</td>
+                        <td>+78393788</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Yark Ptto</td>
+                        <td>yarkptto@mail.com</td>
+                        <td>+74378937</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>Kacob Rornton</td>
+                        <td>kcobhornton@net.com</td>
+                        <td>+64363767</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td>arry dir</td>
+                        <td>arrydir@fbc.com</td>
+                        <td>+78356488</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
 
         <!------------------------- Frequently Ask ------------------------------------>
 
-        <section class="container">
+        <section class="container my-5">
             <h2 class="text-center my-5 ">Frequently Asked Questions</h2>
 
             <div class="row row-col-lg-6 g-4">
@@ -266,12 +325,16 @@
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by
+                                    default,
                                     until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    element. These classes control the overall appearance, as well as the showing
+                                    and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or
+                                    overriding
+                                    our default variables. It's also worth noting that just about any HTML can go
+                                    within
+                                    the .accordion-body, though the transition does limit overflow.
                                 </div>
                             </div>
                         </div>
@@ -285,12 +348,16 @@
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by
+                                    default,
                                     until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    element. These classes control the overall appearance, as well as the showing
+                                    and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or
+                                    overriding
+                                    our default variables. It's also worth noting that just about any HTML can go
+                                    within
+                                    the .accordion-body, though the transition does limit overflow.
                                 </div>
                             </div>
                         </div>
@@ -304,12 +371,16 @@
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by
+                                    default,
                                     until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    element. These classes control the overall appearance, as well as the showing
+                                    and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or
+                                    overriding
+                                    our default variables. It's also worth noting that just about any HTML can go
+                                    within
+                                    the .accordion-body though the transition does limit overflow.
                                 </div>
                             </div>
                         </div>
@@ -320,8 +391,6 @@
                 </div>
             </div>
         </section>
-
-
 
     </main>
 
@@ -344,6 +413,18 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        var toastTrigger = document.getElementById('liveToastBtn')
+        var toastLiveExample = document.getElementById('liveToast')
+        if (toastTrigger) {
+            toastTrigger.addEventListener('click', function () {
+                var toast = new bootstrap.Toast(toastLiveExample)
+
+                toast.show()
+            })
+        }
+    </script>
 
 
     <!-- Bootstrap JS -->
